@@ -6,7 +6,16 @@
   --very-dark-grayish-blue: hsl(237, 12%, 33%);
   --dark-grayish-blue: hsl(240, 6%, 50%);
   --light-grayish-blue: hsl(240, 5%, 91%);
+  --white: #fff;
 
   --font-regular: 400;
   --font-bold: 700;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--soft-violet);
 }
