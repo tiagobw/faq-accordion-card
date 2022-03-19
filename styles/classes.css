@@ -134,7 +134,7 @@
     grid-template-columns: 1fr 1fr;
     background-image: url('../images/bg-pattern-desktop.svg');
     background-repeat: no-repeat;
-    background-position: -45rem -24rem;
+    background-position: -45rem -23rem;
     width: 84.17rem;
     overflow: hidden;
   }
@@ -160,6 +160,7 @@
   .accordions-container {
     width: 72.5%;
     margin: 0;
+    height: 27rem;
   }
 
   .accordion__question {
@@ -179,25 +180,5 @@
 
   .accordion__answer {
     font-size: 1.1rem;
-  }
-}
-
-@media screen and (min-width: 1536px) {
-  .card {
-    width: 55vw;
-    background-position: -7% -350%;
-  }
-
-  .card__img-woman-container {
-    transform: translate(-8rem, 0rem);
-  }
-
-  .card__img-box {
-    top: 41%;
-    left: -8%;
-  }
-
-  .accordions-container {
-    height: 32vh;
   }
 }
