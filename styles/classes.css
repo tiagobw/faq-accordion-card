@@ -62,6 +62,10 @@
   justify-content: space-between;
 }
 
+.accordion__question:hover {
+  color: var(--soft-red);
+}
+
 .accordion__question:focus {
   outline: 3px solid rgb(152, 205, 255);
 }
@@ -77,6 +81,10 @@
 
 .accordion[open] .accordion__question {
   color: #000;
+}
+
+.accordion[open] .accordion__question:hover {
+  color: var(--soft-red);
 }
 
 .accordion[open] .accordion__question:focus {
@@ -124,9 +132,9 @@
     grid-template-columns: 1fr 1fr;
     background-image: url('../images/bg-pattern-desktop.svg');
     background-repeat: no-repeat;
-    background-position: -55% 88%;
+    background-position: -68% 90%;
     background-attachment: fixed;
-    width: 65vw;
+    width: 70vw;
     overflow: hidden;
   }
 
