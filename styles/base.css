@@ -17,5 +17,5 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: var(--soft-violet);
+  background: linear-gradient(var(--soft-violet), var(--soft-blue));
 }

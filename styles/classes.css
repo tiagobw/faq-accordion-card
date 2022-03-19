@@ -16,6 +16,7 @@
   background-color: var(--white);
   width: 85vw;
   border-radius: 2rem;
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.3);
 }
 
 .card__img-box {
@@ -154,10 +155,11 @@
 
   .card__text-container {
     align-items: flex-start;
-    margin: 7rem;
+    margin: 7rem 7rem 7rem 10rem;
   }
 
   .accordions-container {
+    width: 72.5%;
     margin: 0;
   }
 
@@ -183,7 +185,20 @@
 
 @media screen and (min-width: 1536px) {
   .card {
-    width: 50vw;
-    background-position: -5% -350%;
+    width: 55vw;
+    background-position: -7% -350%;
+  }
+
+  .card__img-woman-container {
+    transform: translate(-8rem, 0rem);
+  }
+
+  .card__img-box {
+    top: 41%;
+    left: -8%;
+  }
+
+  .accordions-container {
+    height: 32vh;
   }
 }
