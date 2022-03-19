@@ -134,9 +134,8 @@
     grid-template-columns: 1fr 1fr;
     background-image: url('../images/bg-pattern-desktop.svg');
     background-repeat: no-repeat;
-    background-position: -68% 90%;
-    background-attachment: fixed;
-    width: 70vw;
+    background-position: -45rem -24rem;
+    width: 84.17rem;
     overflow: hidden;
   }
 
