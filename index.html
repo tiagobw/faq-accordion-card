@@ -24,81 +24,84 @@
   </head>
   <body>
     <main class="main-container">
-      <div class="card">
-        <div class="card__img-outer-container">
-          <img
-            class="card__img-box"
-            src="./images/illustration-box-desktop.svg"
-            alt="An orange box"
-          />
-          <picture class="card__img-woman-container">
-            <source
-              class="card__img-woman"
-              media="(min-width: 768px)"
-              srcset="./images/illustration-woman-online-desktop.svg"
-            />
-            <img
-              class="card__img-woman"
-              src="./images/illustration-woman-online-mobile.svg"
-              alt="A woman in front of a giant tv"
-            />
-          </picture>
-        </div>
-        <article class="card__text-container">
-          <h1 class="card__heading">FAQ</h1>
-          <div class="accordions-container">
-            <details class="accordion">
-              <summary class="accordion__question">
-                How many team members can I invite?
-              </summary>
-              <p class="accordion__answer">
-                You can invite up to 2 additional users on the Free plan. There
-                is no limit on team members for the Premium plan.
-              </p>
-            </details>
-            <hr class="accordion__hr" />
-            <details class="accordion">
-              <summary class="accordion__question">
-                What is the maximum file upload size?
-              </summary>
-              <p class="accordion__answer">
-                No more than 2GB. All files in your account must fit your
-                allotted storage space.
-              </p>
-            </details>
-            <hr class="accordion__hr" />
-            <details class="accordion">
-              <summary class="accordion__question">
-                How do I reset my password?
-              </summary>
-              <p class="accordion__answer">
-                Click “Forgot password” from the login page or “Change password”
-                from your profile page. A reset link will be emailed to you.
-              </p>
-            </details>
-            <hr class="accordion__hr" />
-            <details class="accordion">
-              <summary class="accordion__question">
-                Can I cancel my subscription?
-              </summary>
-              <p class="accordion__answer">
-                Yes! Send us a message and we’ll process your request no
-                questions asked.
-              </p>
-            </details>
-            <hr class="accordion__hr" />
-            <details class="accordion">
-              <summary class="accordion__question">
-                Do you provide additional support?
-              </summary>
-              <p class="accordion__answer">
-                Chat and email support is available 24/7. Phone lines are open
-                during normal business hours.
-              </p>
-            </details>
-            <hr class="accordion__hr" />
+      <div class="card-container">
+        <div class="card">
+          <div class="card__img-outer-container">
+            <picture class="card__img-woman-container">
+              <source
+                class="card__img-woman"
+                media="(min-width: 768px)"
+                srcset="./images/illustration-woman-online-desktop.svg"
+              />
+              <img
+                class="card__img-woman"
+                src="./images/illustration-woman-online-mobile.svg"
+                alt="A woman in front of a giant tv"
+              />
+            </picture>
           </div>
-        </article>
+          <article class="card__text-container">
+            <h1 class="card__heading">FAQ</h1>
+            <div class="accordions-container">
+              <details class="accordion">
+                <summary class="accordion__question">
+                  How many team members can I invite?
+                </summary>
+                <p class="accordion__answer">
+                  You can invite up to 2 additional users on the Free plan.
+                  There is no limit on team members for the Premium plan.
+                </p>
+              </details>
+              <hr class="accordion__hr" />
+              <details class="accordion">
+                <summary class="accordion__question">
+                  What is the maximum file upload size?
+                </summary>
+                <p class="accordion__answer">
+                  No more than 2GB. All files in your account must fit your
+                  allotted storage space.
+                </p>
+              </details>
+              <hr class="accordion__hr" />
+              <details class="accordion">
+                <summary class="accordion__question">
+                  How do I reset my password?
+                </summary>
+                <p class="accordion__answer">
+                  Click “Forgot password” from the login page or “Change
+                  password” from your profile page. A reset link will be emailed
+                  to you.
+                </p>
+              </details>
+              <hr class="accordion__hr" />
+              <details class="accordion">
+                <summary class="accordion__question">
+                  Can I cancel my subscription?
+                </summary>
+                <p class="accordion__answer">
+                  Yes! Send us a message and we’ll process your request no
+                  questions asked.
+                </p>
+              </details>
+              <hr class="accordion__hr" />
+              <details class="accordion">
+                <summary class="accordion__question">
+                  Do you provide additional support?
+                </summary>
+                <p class="accordion__answer">
+                  Chat and email support is available 24/7. Phone lines are open
+                  during normal business hours.
+                </p>
+              </details>
+              <hr class="accordion__hr" />
+            </div>
+          </article>
+        </div>
+        <img
+          class="card__img-box"
+          src="./images/illustration-box-desktop.svg"
+          alt="An orange box"
+        />
       </div>
     </main>
   </body>
