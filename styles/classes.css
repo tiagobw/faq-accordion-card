@@ -51,6 +51,7 @@
 .accordions-container {
   width: 85%;
   margin-bottom: 3rem;
+  height: 44vh;
 }
 
 .accordion__question {
